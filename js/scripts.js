@@ -9,7 +9,7 @@ var pinger = function(number) {
     } else if (i % 15 === 0) {
       result.push("pingpong" + "<br>");
     }
-    else{
+    else {
       result.push(i + "<br>");
     };
   };
