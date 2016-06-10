@@ -1,0 +1,32 @@
+.jumbotron {
+  text-align: center;
+  color:white;
+  background-color: darkgreen;
+}
+#result{
+  float: right;
+  max-width: 100px;
+  text-align: center;
+  color: red;
+  margin-left: 300px;
+}
+form {
+  color: white;
+  text-align: center;
+  background-color: teal;
+}
+body {
+  max-width: 900px;
+  background-color: black;
+}
+.sidebar{
+  float: left;
+  background-color: silver;
+}
+li {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 20px;
+  border: black, 5px;
+  border
+}
