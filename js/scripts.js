@@ -2,10 +2,12 @@ var pinger = function(number) {
   value = parseInt(number);
 var result = []
   for(i=1; i<=value; i++) {
-
     if (i % 3 === 0) {
       result.push("ping");
-    } else{
+    }else if (i % 5 === 0){
+      result.push("pong");
+    }
+    else{
       result.push(i);
     }
   }
